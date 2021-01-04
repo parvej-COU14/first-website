@@ -2,7 +2,35 @@ body{
     font-family: 'Bebas Neue', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
 }
 h1{
     font-family: 'Bebas Neue', cursive;
+    color: crimson;
+    line-height:.5cm;
+    letter-spacing: .1em;
+    font-size: 30px;
+}
+.highlight1{
+    color: blue;
+}
+.highlight2{
+    color: black;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-top: 50px;
+    color: red;
+}
+.left{
+    width: 35%;
+    float: left;
+    margin: 100px ;
+    padding: 10px;
+}
+.left img{
+    width: 90%;
 }
