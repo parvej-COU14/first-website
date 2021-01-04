@@ -12,13 +12,14 @@ h1{
     color: crimson;
     line-height:.5cm;
     letter-spacing: .1em;
-    font-size: 30px;
+    font-size: 35px;
+    font-variant: small-caps;
 }
 .highlight1{
     color: blue;
 }
 .highlight2{
-    color: black;
+    color: tomato;
 }
 h3{
     font-family: 'Roboto', sans-serif;
@@ -37,5 +38,22 @@ h3{
     width: 90%;
 }
 .top{
-  background-color: seagreen;
+   
+ background-image: url("images/top-banner.png") ;
+ background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(lightsalmon,tomato);
+    border: 1px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    padding: 5px 26px;
+   
+    color: white;
+    cursor: pointer;
+
 }
