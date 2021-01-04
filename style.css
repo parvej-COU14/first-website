@@ -48,7 +48,7 @@ section{
 .button{
     text-decoration: none;
     background-image:linear-gradient(lightsalmon,tomato);
-    border: 1px solid #000;
+    border: 1px solid crimson;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     padding: 5px 26px;
@@ -57,3 +57,43 @@ section{
     cursor: pointer;
 
 }
+/* second part */
+.right{
+    width: 35%;
+    float: left;
+    margin: 100px ;
+    padding: 10px;
+}
+.right img{
+    width: 90%;
+}
+.highlight3{
+    color: blue;
+}
+.right h1{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: crimson;
+}
+.right h3{
+    font-family: 'Bebas Neue', cursive;
+    color: crimson;
+    line-height:.5cm;
+ 
+    font-size: 26px;
+    font-variant: small-caps;}
+
+    .dream{
+          
+ background-image: url("images/dream-bg.png") ;
+ background-repeat: no-repeat;
+ background-position: right;
+ background-size: 50px;
+    }
+    /* third part */
+    .right{
+        width: 35%;
+      float: left;
+        margin: 100px ;
+        padding: 10px;
+    }
