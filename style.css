@@ -44,6 +44,7 @@ h3{
 }
 section{
     height: 500px;
+    margin-bottom: 100px;
 }
 .button{
     text-decoration: none;
@@ -56,44 +57,91 @@ section{
     color: white;
     cursor: pointer;
 
+}/*   second part     */
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-variant: small-caps;
+    margin-top: 50px;
+    color: red;
 }
-/* second part */
-.right{
+.top2{
+   
+    background-image: url("images/dream-bg.png") ;
+    background-repeat: no-repeat;
+   background-position: right;
+   
+   
+   }
+
+ 
+
+ /*   third part     */
+ .left1{
     width: 35%;
     float: left;
     margin: 100px ;
     padding: 10px;
 }
-.right img{
-    width: 90%;
+
+.exper h1{
+    font-family: 'Bebas Neue', cursive;
+    color: crimson;
+   
+    letter-spacing: .1em;
+    font-size:40px;
+    padding: 10px;
+   
+   
 }
-.highlight3{
+       
+.highlight5{
     color: blue;
 }
-.right h1{
-    font-size: 40px;
-    font-family: 'Bebas Neue', cursive;
-    color: crimson;
+.left1 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+   
+    color: red;
 }
-.right h3{
-    font-family: 'Bebas Neue', cursive;
-    color: crimson;
-    line-height:.5cm;
- 
-    font-size: 26px;
-    font-variant: small-caps;}
+.left1 h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+   
+    color: blue;
+}
+.highlight6{
+    color: tomato;
+}
+.highlight2{
+    color: tomato; 
+}
+.left1{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 55%;
+    border-left: 5px solid tomato;
+   
+}
+.middle{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+.middle{
+    height: 500px;
+  
+  
+}
 
-    .dream{
-          
- background-image: url("images/dream-bg.png") ;
- background-repeat: no-repeat;
- background-position: right;
- background-size: 50px;
-    }
-    /* third part */
-    .right{
-        width: 35%;
-      float: left;
-        margin: 100px ;
-        padding: 10px;
+}
+footer p{
+    
+   text-align: center;
+   justify-content: center;
+   color: black;
+   font-size: 15px;
+    
     }
